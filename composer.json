@@ -1,0 +1,23 @@
+{
+    "name": "dzlin/pro",
+    "type": "project",
+    "description": "dzlin php project",
+    "keywords": [],
+    "homepage": "http://www.dzlin.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dzlin",
+            "email": "zhanglindeng@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2-debug": "^2.0",
+        "yiisoft/yii2-gii": "^2.0"
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}
