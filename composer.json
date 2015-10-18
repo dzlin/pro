@@ -11,13 +11,23 @@
             "email": "zhanglindeng@163.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "^2.0",
         "yiisoft/yii2-debug": "^2.0",
-        "yiisoft/yii2-gii": "^2.0"
+        "yiisoft/yii2-gii": "^2.0",
+        "kucha/ueditor": "*",
+        "hisune/echarts-php": "^1.0",
+        "yiisoft/yii2-bootstrap": "^2.0"
     },
     "config": {
         "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
     }
 }

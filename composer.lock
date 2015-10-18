@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "681a9aa8146a8f1cf0cd6fa717cde05e",
+    "hash": "b4ea98fc17f1f31ab92c1c4051816c6f",
+    "content-hash": "4372c54f0235783067a9c7c236e18078",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -342,6 +343,84 @@
                 "html"
             ],
             "time": "2013-11-30 08:25:19"
+        },
+        {
+            "name": "hisune/echarts-php",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hisune/Echarts-PHP.git",
+                "reference": "4f28ab5bded159827cd6c9c4e995320103327959"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/hisune/Echarts-PHP/4f28ab5bded159827cd6c9c4e995320103327959.zip",
+                "reference": "4f28ab5bded159827cd6c9c4e995320103327959",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hisune\\EchartsPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Hisune",
+                    "email": "hi@hisune.com",
+                    "homepage": "http://hisune.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A php wrapper for echarts javascript libraries",
+            "homepage": "http://hisune.com",
+            "keywords": [
+                "charts",
+                "echarts",
+                "javascript",
+                "php"
+            ],
+            "time": "2015-08-18 03:51:15"
+        },
+        {
+            "name": "kucha/ueditor",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BigKuCha/yii2-ueditor-widget.git",
+                "reference": "b41439ee0c69efc800a53087c20d8bfcea0f9507"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/BigKuCha/yii2-ueditor-widget/b41439ee0c69efc800a53087c20d8bfcea0f9507.zip",
+                "reference": "b41439ee0c69efc800a53087c20d8bfcea0f9507",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "kucha\\ueditor\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "null"
+            ],
+            "authors": [
+                {
+                    "name": "BigKuCha",
+                    "email": "nevermore1989@vip.qq.com"
+                }
+            ],
+            "description": "desc",
+            "time": "2015-02-06 02:01:30"
         },
         {
             "name": "phpspec/php-diff",

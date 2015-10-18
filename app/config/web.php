@@ -15,6 +15,7 @@ $config = [
     'basePath' => PATH_ROOT . DIRECTORY_SEPARATOR . 'app',
     'defaultRoute' => 'main/index/index',
     'runtimePath' => PATH_ROOT . DIRECTORY_SEPARATOR . 'data/runtime',
+    'vendorPath' => PATH_ROOT . DIRECTORY_SEPARATOR . 'vendor',
     'bootstrap' => ['log'],
     'language' => 'zh-CN',
     'timeZone' => 'PRC',
@@ -46,6 +47,10 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
+        'assetManager' => [
+            'basePath' => '@webroot/static',
+            'baseUrl' => '@web/static',
+        ],
     ],
     'params' => $params,
     'modules' => $modules,

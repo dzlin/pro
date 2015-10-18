@@ -16,6 +16,5 @@ require(__DIR__ . '/vendor/yiisoft/yii2/Yii.php');
 // 加载配置文件
 $config = require(__DIR__ . '/app/config/web.php');
 
-// @todo 一些目录别名设置
 // 启动应用
 (new yii\web\Application($config))->run();
