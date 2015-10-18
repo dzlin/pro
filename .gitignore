@@ -47,3 +47,5 @@ vendor/
 nbproject/
 
 data/runtime/
+
+data/upload/
