@@ -1,6 +1,10 @@
 <?php
 
+/**
+ * 一些参数配置
+ */
 return [
+    // 管理员邮箱
     'adminEmail' => 'zhanglindeng@163.com',
     // 百度编辑器配置
     'ueditor' => [
@@ -29,4 +33,6 @@ return [
                 ],
             ]]
     ],
+    // 百度编辑器文件上传文件
+    'ueditorUploadDir' => 'data/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}',
 ];

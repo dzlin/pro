@@ -51,6 +51,12 @@ $config = [
             'basePath' => '@webroot/static',
             'baseUrl' => '@web/static',
         ],
+        'urlManager' => [
+            'class' => 'yii\web\UrlManager',
+            'showScriptName' => false,
+            'enablePrettyUrl' => true,
+            'rules' => [],
+        ],
     ],
     'params' => $params,
     'modules' => $modules,

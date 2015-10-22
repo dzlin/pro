@@ -19,7 +19,20 @@
         "yiisoft/yii2-gii": "^2.0",
         "kucha/ueditor": "*",
         "hisune/echarts-php": "^1.0",
-        "yiisoft/yii2-bootstrap": "^2.0"
+        "yiisoft/yii2-bootstrap": "^2.0",
+        "league/event": "^2.1",
+        "league/flysystem": "^1.0",
+        "imagine/imagine": "^0.6.3",
+        "yiisoft/yii2-swiftmailer": "^2.0",
+        "yiisoft/yii2-redis": "^2.0",
+        "ramsey/uuid": "^3.0",
+        "kop/yii2-scroll-pager": "dev-master",
+        "liyunfang/yii2-widget-linkpager": "^1.0",
+        "liyunfang/yii2-contextmenu": "^1.0",
+        "kartik-v/yii2-export": "@dev",
+        "kartik-v/yii2-tree-manager": "@dev",
+        "kartik-v/yii2-grid": "@dev",
+        "kartik-v/yii2-helpers": "dev-master"
     },
     "config": {
         "process-timeout": 1800

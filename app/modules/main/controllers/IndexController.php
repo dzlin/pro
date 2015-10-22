@@ -19,9 +19,12 @@ class IndexController extends BaseController
                     //图片访问路径前缀
                     //"imageUrlPrefix" => "http://localhost:8005/",
                     //上传保存路径
-                    "imagePathFormat" => "data/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}"
+                    "imagePathFormat" => Yii::$app->params['ueditorUploadDir']
                 ],
-            ]
+            ],
+            'kartik' => [
+                'class' => 'app\modules\main\actions\Kartik',
+            ],
         ];
         // return array_merge(parent::actions(), $actions);
     }
@@ -30,12 +33,11 @@ class IndexController extends BaseController
     {
 
         // Yii::$app->response->sendFile('README.md');
-
-        $sql = 'select * from user';
-        var_dump(Yii::$app->db->createCommand($sql)->queryAll());
+        //$sql = 'select * from user';
+        //var_dump(Yii::$app->db->createCommand($sql)->queryAll());
         // var_dump(Yii::$app->user->isGuest);
-        // $file = __FILE__;
-        // return $this->render('index', ['file' => $file]);
+        $file = __FILE__;
+        return $this->render('index', ['file' => $file]);
     }
 
     public function actionEditor()
